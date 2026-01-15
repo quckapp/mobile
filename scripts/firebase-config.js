@@ -38,9 +38,9 @@ try {
   console.log(`\n🔧 Firebase environment set to: ${env.toUpperCase()}`);
 
   if (env === 'dev') {
-    console.log('📱 Development Firebase: quckchat-dev');
+    console.log('📱 Development Firebase: quckapp-dev');
   } else {
-    console.log('📱 Production Firebase: quckchat-2a047');
+    console.log('📱 Production Firebase: quckapp-2a047');
   }
 
   console.log('\n⚠️  Remember to rebuild the app for changes to take effect!');

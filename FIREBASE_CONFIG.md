@@ -4,8 +4,8 @@ This project uses separate Firebase configurations for development and productio
 
 ## Configuration Files
 
-- `google-services.dev.json` - Development Firebase configuration (quckchat-dev)
-- `google-services.prod.json` - Production Firebase configuration (quckchat-2a047)
+- `google-services.dev.json` - Development Firebase configuration (quckapp-dev)
+- `google-services.prod.json` - Production Firebase configuration (quckapp-2a047)
 - `google-services.json` - Active configuration (auto-generated, not committed to git)
 
 ## Switching Between Environments
@@ -46,13 +46,13 @@ The Firebase configuration is baked into the native build, so hot reloading won'
 
 ## Environment Details
 
-### Development (quckchat-dev)
-- **Project ID:** quckchat-dev
+### Development (quckapp-dev)
+- **Project ID:** quckapp-dev
 - **Project Number:** 641051509982
 - **Use for:** Local development, testing, staging
 
-### Production (quckchat-2a047)
-- **Project ID:** quckchat-2a047
+### Production (quckapp-2a047)
+- **Project ID:** quckapp-2a047
 - **Project Number:** 866846360242
 - **Use for:** Production releases, app store builds
 
@@ -68,7 +68,7 @@ Before building a production release:
 2. Verify the configuration:
    ```bash
    cat google-services.json
-   # Should show quckchat-2a047 project
+   # Should show quckapp-2a047 project
    ```
 
 3. Build the app:

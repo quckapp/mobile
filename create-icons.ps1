@@ -39,26 +39,26 @@ function Create-ChatIcon {
 }
 
 # Create assets folder icons
-Create-ChatIcon -size 1024 -outputPath 'D:\Learning\QuckChat\mobile\assets\icon.png'
-Create-ChatIcon -size 1024 -outputPath 'D:\Learning\QuckChat\mobile\assets\adaptive-icon.png'
+Create-ChatIcon -size 1024 -outputPath 'D:\Learning\QuckApp\mobile\assets\icon.png'
+Create-ChatIcon -size 1024 -outputPath 'D:\Learning\QuckApp\mobile\assets\adaptive-icon.png'
 
 # Create Android mipmap icons
-Create-ChatIcon -size 48 -outputPath 'D:\Learning\QuckChat\mobile\android\app\src\main\res\mipmap-mdpi\ic_launcher.png'
-Create-ChatIcon -size 48 -outputPath 'D:\Learning\QuckChat\mobile\android\app\src\main\res\mipmap-mdpi\ic_launcher_round.png'
-Create-ChatIcon -size 72 -outputPath 'D:\Learning\QuckChat\mobile\android\app\src\main\res\mipmap-hdpi\ic_launcher.png'
-Create-ChatIcon -size 72 -outputPath 'D:\Learning\QuckChat\mobile\android\app\src\main\res\mipmap-hdpi\ic_launcher_round.png'
-Create-ChatIcon -size 96 -outputPath 'D:\Learning\QuckChat\mobile\android\app\src\main\res\mipmap-xhdpi\ic_launcher.png'
-Create-ChatIcon -size 96 -outputPath 'D:\Learning\QuckChat\mobile\android\app\src\main\res\mipmap-xhdpi\ic_launcher_round.png'
-Create-ChatIcon -size 144 -outputPath 'D:\Learning\QuckChat\mobile\android\app\src\main\res\mipmap-xxhdpi\ic_launcher.png'
-Create-ChatIcon -size 144 -outputPath 'D:\Learning\QuckChat\mobile\android\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.png'
-Create-ChatIcon -size 192 -outputPath 'D:\Learning\QuckChat\mobile\android\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png'
-Create-ChatIcon -size 192 -outputPath 'D:\Learning\QuckChat\mobile\android\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.png'
+Create-ChatIcon -size 48 -outputPath 'D:\Learning\QuckApp\mobile\android\app\src\main\res\mipmap-mdpi\ic_launcher.png'
+Create-ChatIcon -size 48 -outputPath 'D:\Learning\QuckApp\mobile\android\app\src\main\res\mipmap-mdpi\ic_launcher_round.png'
+Create-ChatIcon -size 72 -outputPath 'D:\Learning\QuckApp\mobile\android\app\src\main\res\mipmap-hdpi\ic_launcher.png'
+Create-ChatIcon -size 72 -outputPath 'D:\Learning\QuckApp\mobile\android\app\src\main\res\mipmap-hdpi\ic_launcher_round.png'
+Create-ChatIcon -size 96 -outputPath 'D:\Learning\QuckApp\mobile\android\app\src\main\res\mipmap-xhdpi\ic_launcher.png'
+Create-ChatIcon -size 96 -outputPath 'D:\Learning\QuckApp\mobile\android\app\src\main\res\mipmap-xhdpi\ic_launcher_round.png'
+Create-ChatIcon -size 144 -outputPath 'D:\Learning\QuckApp\mobile\android\app\src\main\res\mipmap-xxhdpi\ic_launcher.png'
+Create-ChatIcon -size 144 -outputPath 'D:\Learning\QuckApp\mobile\android\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.png'
+Create-ChatIcon -size 192 -outputPath 'D:\Learning\QuckApp\mobile\android\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png'
+Create-ChatIcon -size 192 -outputPath 'D:\Learning\QuckApp\mobile\android\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.png'
 
 # Create foreground icons for adaptive icons
-Create-ChatIcon -size 108 -outputPath 'D:\Learning\QuckChat\mobile\android\app\src\main\res\mipmap-mdpi\ic_launcher_foreground.png'
-Create-ChatIcon -size 162 -outputPath 'D:\Learning\QuckChat\mobile\android\app\src\main\res\mipmap-hdpi\ic_launcher_foreground.png'
-Create-ChatIcon -size 216 -outputPath 'D:\Learning\QuckChat\mobile\android\app\src\main\res\mipmap-xhdpi\ic_launcher_foreground.png'
-Create-ChatIcon -size 324 -outputPath 'D:\Learning\QuckChat\mobile\android\app\src\main\res\mipmap-xxhdpi\ic_launcher_foreground.png'
-Create-ChatIcon -size 432 -outputPath 'D:\Learning\QuckChat\mobile\android\app\src\main\res\mipmap-xxxhdpi\ic_launcher_foreground.png'
+Create-ChatIcon -size 108 -outputPath 'D:\Learning\QuckApp\mobile\android\app\src\main\res\mipmap-mdpi\ic_launcher_foreground.png'
+Create-ChatIcon -size 162 -outputPath 'D:\Learning\QuckApp\mobile\android\app\src\main\res\mipmap-hdpi\ic_launcher_foreground.png'
+Create-ChatIcon -size 216 -outputPath 'D:\Learning\QuckApp\mobile\android\app\src\main\res\mipmap-xhdpi\ic_launcher_foreground.png'
+Create-ChatIcon -size 324 -outputPath 'D:\Learning\QuckApp\mobile\android\app\src\main\res\mipmap-xxhdpi\ic_launcher_foreground.png'
+Create-ChatIcon -size 432 -outputPath 'D:\Learning\QuckApp\mobile\android\app\src\main\res\mipmap-xxxhdpi\ic_launcher_foreground.png'
 
 Write-Host 'All icons created successfully!'

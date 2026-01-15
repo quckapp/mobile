@@ -1,5 +1,5 @@
 {
-  "scheme": "com.quckchat.app",
+  "scheme": "com.quckapp.app",
   "hostType": "lan",
   "lanType": "ip",
   "devClient": true,

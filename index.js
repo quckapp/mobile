@@ -5,7 +5,7 @@ import messaging from '@react-native-firebase/messaging';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // Storage key for pending call data
-const PENDING_CALL_KEY = '@quckchat_pending_call';
+const PENDING_CALL_KEY = '@quckapp_pending_call';
 
 // Import RNCallKeep directly - DON'T import from callkeep service
 // because it depends on Redux store which isn't initialized when app is killed
@@ -81,12 +81,12 @@ messaging().setBackgroundMessageHandler(async remoteMessage => {
           // Setup CallKeep if not already done (required for background)
           await RNCallKeep.setup({
             ios: {
-              appName: 'QuckChat',
+              appName: 'QuckApp',
               supportsVideo: true,
             },
             android: {
               alertTitle: 'Permissions Required',
-              alertDescription: 'QuckChat needs to access your phone accounts',
+              alertDescription: 'QuckApp needs to access your phone accounts',
               cancelButton: 'Cancel',
               okButton: 'OK',
               additionalPermissions: [],

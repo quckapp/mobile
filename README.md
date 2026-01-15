@@ -1,4 +1,4 @@
-# QuckChat Mobile
+# QuckApp Mobile
 
 Production-ready React Native chat application with real-time messaging and audio/video calling.
 
@@ -35,8 +35,8 @@ Production-ready React Native chat application with real-time messaging and audi
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/QuckChat/quckchat-mobile.git
-cd quckchat-mobile
+git clone https://github.com/QuckApp/quckapp-mobile.git
+cd quckapp-mobile
 ```
 
 2. **Install dependencies**
@@ -144,8 +144,8 @@ src/
 
 ## 🔐 Backend Integration
 
-This app requires the QuckChat backend to function:
-👉 [QuckChat Backend](https://github.com/QuckChat/quckchat-backend)
+This app requires the QuckApp backend to function:
+👉 [QuckApp Backend](https://github.com/QuckApp/quckapp-backend)
 
 Follow the backend setup instructions to run the API server.
 

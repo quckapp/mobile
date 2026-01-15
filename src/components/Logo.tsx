@@ -11,7 +11,7 @@ export const Logo: React.FC<LogoProps> = ({ width = 200, height = 60 }) => {
   return (
     <View style={styles.container}>
       <SvgLogo width={60} height={60} />
-      <Text style={styles.text}>QuckChat</Text>
+      <Text style={styles.text}>QuckApp</Text>
     </View>
   );
 };

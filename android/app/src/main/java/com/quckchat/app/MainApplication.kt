@@ -1,4 +1,4 @@
-package com.quckchat.app
+package com.quckapp.app
 
 import android.app.Application
 import android.content.res.Configuration

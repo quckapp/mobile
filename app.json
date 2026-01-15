@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "QuckChat",
-    "slug": "quckchat",
+    "name": "QuckApp",
+    "slug": "quckapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,11 +17,11 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.quckchat.app",
+      "bundleIdentifier": "com.quckapp.app",
       "infoPlist": {
-        "NSCameraUsageDescription": "QuckChat needs access to your camera for video calls and sending photos.",
-        "NSMicrophoneUsageDescription": "QuckChat needs access to your microphone for audio and video calls.",
-        "NSPhotoLibraryUsageDescription": "QuckChat needs access to your photos to send images.",
+        "NSCameraUsageDescription": "QuckApp needs access to your camera for video calls and sending photos.",
+        "NSMicrophoneUsageDescription": "QuckApp needs access to your microphone for audio and video calls.",
+        "NSPhotoLibraryUsageDescription": "QuckApp needs access to your photos to send images.",
         "UIBackgroundModes": [
           "audio",
           "voip",
@@ -39,7 +39,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.quckchat.app",
+      "package": "com.quckapp.app",
       "permissions": [
         "android.permission.CAMERA",
         "android.permission.RECORD_AUDIO",
@@ -72,7 +72,7 @@
       [
         "expo-camera",
         {
-          "cameraPermission": "Allow QuckChat to access your camera for video calls and photos."
+          "cameraPermission": "Allow QuckApp to access your camera for video calls and photos."
         }
       ],
       [
@@ -86,14 +86,14 @@
       [
         "@config-plugins/react-native-webrtc",
         {
-          "cameraPermission": "QuckChat needs camera access for video calls",
-          "microphonePermission": "QuckChat needs microphone access for audio and video calls"
+          "cameraPermission": "QuckApp needs camera access for video calls",
+          "microphonePermission": "QuckApp needs microphone access for audio and video calls"
         }
       ],
       [
         "@config-plugins/react-native-callkeep",
         {
-          "appName": "QuckChat",
+          "appName": "QuckApp",
           "includesCallsInRecents": true,
           "ringtoneSound": "ringtone.mp3"
         }

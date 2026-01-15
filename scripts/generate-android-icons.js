@@ -20,7 +20,7 @@ const adaptiveIconSizes = {
   'mipmap-xxxhdpi': 432,
 };
 
-const svgPath = path.join(__dirname, '..', 'QuckChatIcon.svg');
+const svgPath = path.join(__dirname, '..', 'QuckAppIcon.svg');
 const androidResPath = path.join(__dirname, '..', 'android', 'app', 'src', 'main', 'res');
 
 // Read and color the SVG

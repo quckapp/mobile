@@ -4,7 +4,7 @@ import { store } from '../store';
 import { incomingCall, endCall, answerCall as answerCallAction } from '../store/slices/callSlice';
 
 // Storage key must match the one in index.js
-const PENDING_CALL_KEY = '@quckchat_pending_call';
+const PENDING_CALL_KEY = '@quckapp_pending_call';
 
 // Interface for pending call data stored by background handler
 interface PendingCallData {
@@ -73,12 +73,12 @@ class CallKeepService {
     try {
       const options: CallKeepOptions = {
         ios: {
-          appName: 'QuckChat',
+          appName: 'QuckApp',
           supportsVideo: true,
         },
         android: {
           alertTitle: 'Permissions Required',
-          alertDescription: 'QuckChat needs to access your phone accounts for incoming calls',
+          alertDescription: 'QuckApp needs to access your phone accounts for incoming calls',
           cancelButton: 'Cancel',
           okButton: 'OK',
           additionalPermissions: [],

@@ -12,7 +12,7 @@ const iconSizes = {
 };
 
 // Read the SVG file
-const svgPath = path.join(__dirname, '..', 'QuckChatIcon.svg');
+const svgPath = path.join(__dirname, '..', 'QuckAppIcon.svg');
 const assetsPath = path.join(__dirname, '..', 'assets');
 
 // Create a colored version of the SVG (blue brand color)
@@ -22,7 +22,7 @@ const svgContent = fs.readFileSync(svgPath, 'utf8');
 const coloredSvg = svgContent.replace(/fill="#000000"/g, 'fill="#0066FF"');
 
 async function generateIcons() {
-  console.log('Generating icons from QuckChatIcon.svg...');
+  console.log('Generating icons from QuckAppIcon.svg...');
 
   for (const [filename, size] of Object.entries(iconSizes)) {
     const outputPath = path.join(assetsPath, filename);

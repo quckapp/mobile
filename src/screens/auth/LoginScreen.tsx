@@ -49,7 +49,7 @@ export default function LoginScreen({ navigation }: any) {
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
     >
       <View style={styles.content}>
-        <Text style={[styles.title, { color: theme.primary }]}>QuckChat</Text>
+        <Text style={[styles.title, { color: theme.primary }]}>QuckApp</Text>
         <Text style={[styles.subtitle, { color: theme.textSecondary }]}>Sign in to continue</Text>
 
         <View style={styles.form}>

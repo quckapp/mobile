@@ -159,7 +159,7 @@ export async function requestOverlayPermission(): Promise<void> {
 
   Alert.alert(
     'Display Over Other Apps',
-    'QuckChat needs permission to display floating call widget over other apps. Please enable "Display over other apps" in settings.',
+    'QuckApp needs permission to display floating call widget over other apps. Please enable "Display over other apps" in settings.',
     [
       { text: 'Cancel', style: 'cancel' },
       {
@@ -194,7 +194,7 @@ export async function requestBatteryOptimizationExemption(): Promise<void> {
 
   Alert.alert(
     'Battery Optimization',
-    'To receive calls and messages reliably, please disable battery optimization for QuckChat.',
+    'To receive calls and messages reliably, please disable battery optimization for QuckApp.',
     [
       { text: 'Later', style: 'cancel' },
       {
@@ -203,7 +203,7 @@ export async function requestBatteryOptimizationExemption(): Promise<void> {
           try {
             await IntentLauncher.startActivityAsync(
               IntentLauncher.ActivityAction.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,
-              { data: 'package:com.quckchat.app' }
+              { data: 'package:com.quckapp.app' }
             );
           } catch (error) {
             // Fallback to battery settings
@@ -239,7 +239,7 @@ export async function requestSpecialPermissions(): Promise<void> {
     // Show a single dialog explaining all special permissions needed
     Alert.alert(
       'Additional Permissions Needed',
-      'For the best experience with calls and notifications, QuckChat needs:\n\n' +
+      'For the best experience with calls and notifications, QuckApp needs:\n\n' +
       '1. Display over other apps - for floating call widget\n' +
       '2. Battery optimization disabled - for reliable notifications\n\n' +
       'Would you like to set these up now?',
@@ -309,7 +309,7 @@ export async function promptForMissingPermissions(): Promise<void> {
 
   Alert.alert(
     'Permissions Required',
-    `QuckChat needs the following permissions to work properly:\n\n${missing.map(p => `• ${p}`).join('\n')}\n\nPlease grant these permissions in Settings.`,
+    `QuckApp needs the following permissions to work properly:\n\n${missing.map(p => `• ${p}`).join('\n')}\n\nPlease grant these permissions in Settings.`,
     [
       { text: 'Cancel', style: 'cancel' },
       {

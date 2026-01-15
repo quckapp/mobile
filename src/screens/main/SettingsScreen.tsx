@@ -310,7 +310,7 @@ export default function SettingsScreen({ navigation }: any) {
         <SettingItem
           icon="help-circle"
           title="Help & Support"
-          onPress={() => Alert.alert('Help & Support', 'Contact support at support@quckchat.com')}
+          onPress={() => Alert.alert('Help & Support', 'Contact support at support@quckapp.com')}
         />
       </View>
     </ScrollView>
