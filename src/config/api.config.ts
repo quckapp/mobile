@@ -34,16 +34,16 @@ const getDevHost = () => {
 };
 
 const DEV_HOST = getDevHost();
-const DEV_API_URL = `http://${DEV_HOST}:1900/api/v1`;
-const DEV_SOCKET_URL = `http://${DEV_HOST}:1900`;
+const DEV_API_URL = `http://${DEV_HOST}:8080/api/v1`;
+const DEV_SOCKET_URL = `http://${DEV_HOST}:8080`;
 
 // Production API URLs (AWS EC2)
-const PRODUCTION_API_URL = 'http://13.204.84.192:3000/api/v1';
-const PRODUCTION_SOCKET_URL = 'http://13.204.84.192:3000';
+const PRODUCTION_API_URL = 'http://13.204.84.192:8080/api/v1';
+const PRODUCTION_SOCKET_URL = 'http://13.204.84.192:8080';
 
 // Railway Internal URL (for service-to-service communication)
 // This is used when you have multiple services on Railway that need to communicate
-const RAILWAY_INTERNAL_URL = 'http://quickchat-backend.railway.internal:1900';
+const RAILWAY_INTERNAL_URL = 'http://quickchat-backend.railway.internal:8080';
 
 // Platform-specific dev mode settings
 // iOS physical devices should use production backend (easier than firewall config)
