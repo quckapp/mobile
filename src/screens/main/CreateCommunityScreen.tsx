@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useTheme } from '../../hooks/useTheme';
-import api from '../../services/api';
+import api from '../../services/api/v1';
 
 export default function CreateCommunityScreen({ navigation }: any) {
   const theme = useTheme();

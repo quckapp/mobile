@@ -14,7 +14,7 @@ import {
   TextInput,
 } from 'react-native';
 import { BlurView } from 'expo-blur';
-import api from '../../services/api';
+import api from '../../services/api/v1';
 import { useDispatch, useSelector } from 'react-redux';
 import { Ionicons } from '@expo/vector-icons';
 import { AppDispatch, RootState } from '../../store';

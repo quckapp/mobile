@@ -17,7 +17,7 @@ import {
 import { Ionicons } from '@expo/vector-icons';
 import { format } from 'date-fns';
 import { useTheme } from '../../hooks/useTheme';
-import { messagesApi } from '../../services/api';
+import { messagesApi } from '../../services/api/v1';
 import { getFullImageUrl } from '../../utils/imageUtils';
 
 interface SearchResult {

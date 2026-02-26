@@ -15,7 +15,7 @@ import { Ionicons } from '@expo/vector-icons';
 import * as ImagePicker from 'expo-image-picker';
 import { AppDispatch, RootState } from '../../store';
 import { updateProfile } from '../../store/slices/authSlice';
-import api from '../../services/api';
+import api from '../../services/api/v1';
 import { useTheme } from '../../hooks/useTheme';
 import { getFullImageUrl } from '../../utils/imageUtils';
 

@@ -15,7 +15,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useTheme } from '../../hooks/useTheme';
-import { linkPreviewApi, LinkPreview as LinkPreviewType } from '../../services/api';
+import { linkPreviewApi, LinkPreview as LinkPreviewType } from '../../services/api/v1';
 
 interface LinkPreviewProps {
   url: string;

@@ -3,7 +3,7 @@
  * Handles all broadcast list related API calls
  */
 
-import api from '../api';
+import api from '../api/v1';
 import { User } from './users.api';
 
 // Types

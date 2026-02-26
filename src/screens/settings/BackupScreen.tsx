@@ -22,7 +22,7 @@ import {
   BackupStatus,
   BackupListItem,
   BackupDetails,
-} from '../../services/api/backup.api';
+} from '../../services/api/v1/backup.api';
 
 const BackupScreen: React.FC = () => {
   const navigation = useNavigation();

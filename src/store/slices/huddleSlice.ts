@@ -6,7 +6,7 @@
  */
 
 import { createSlice, createAsyncThunk, PayloadAction } from '@reduxjs/toolkit';
-import api from '../../services/api';
+import api from '../../services/api/v1';
 
 export enum HuddleType {
   AUDIO = 'audio',

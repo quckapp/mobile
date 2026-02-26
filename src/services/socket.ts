@@ -91,7 +91,7 @@ export const initializeSocket = () => {
     // Explicitly set user status to online
     const userId = store.getState().auth.user?._id;
     if (userId) {
-      import('./api').then(({ default: api }) => {
+      import('./api/v1').then(({ default: api }) => {
         api.put('/users/me/status', { status: 'online' })
           .catch(err => console.log('Failed to update status:', err));
       });

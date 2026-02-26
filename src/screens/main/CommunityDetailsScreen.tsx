@@ -13,7 +13,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { useTheme } from '../../hooks/useTheme';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../store';
-import api from '../../services/api';
+import api from '../../services/api/v1';
 
 export default function CommunityDetailsScreen({ route, navigation }: any) {
   const theme = useTheme();

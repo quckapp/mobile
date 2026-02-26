@@ -10,7 +10,7 @@ import {
   Alert,
   ActivityIndicator,
 } from 'react-native';
-import api from '../../services/api';
+import api from '../../services/api/v1';
 import { useDispatch } from 'react-redux';
 import { setTokens, updateUser } from '../../store/slices/authSlice';
 import { useTheme } from '../../hooks/useTheme';

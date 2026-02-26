@@ -17,7 +17,7 @@ import { HuddleType, toggleLocalMute } from '../../store/slices/huddleSlice';
 import { useHuddle } from '../../hooks/huddle';
 import { format } from 'date-fns';
 import { formatLastSeen } from '../../utils/formatLastSeen';
-import api from '../../services/api';
+import api from '../../services/api/v1';
 import { getPhoneNumber, getFlag } from '../../utils/phoneUtils';
 import { getFullImageUrl } from '../../utils/imageUtils';
 import { InlineHuddleBar } from '../../components/InlineHuddleBar';

@@ -1,7 +1,7 @@
 import NetInfo, { NetInfoState } from '@react-native-community/netinfo';
 import { store } from '../store';
 import { setNetworkStatus } from '../store/slices/networkSlice';
-import api from './api';
+import api from './api/v1';
 
 let unsubscribe: (() => void) | null = null;
 

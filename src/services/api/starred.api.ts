@@ -3,7 +3,7 @@
  * Handles all starred/saved messages related API calls
  */
 
-import api from '../api';
+import api from '../api/v1';
 import { Message } from './conversations.api';
 
 // Types

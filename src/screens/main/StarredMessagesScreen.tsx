@@ -12,7 +12,7 @@ import {
 import { Ionicons } from '@expo/vector-icons';
 import { useTheme } from '../../hooks/useTheme';
 import { format } from 'date-fns';
-import api from '../../services/api';
+import api from '../../services/api/v1';
 
 export default function StarredMessagesScreen({ navigation }: any) {
   const theme = useTheme();

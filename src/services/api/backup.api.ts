@@ -3,7 +3,7 @@
  * Handles backup and restore operations with Google Cloud Storage
  */
 
-import api from '../api';
+import api from '../api/v1';
 
 export interface BackupStatus {
   enabled: boolean;

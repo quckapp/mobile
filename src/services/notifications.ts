@@ -2,7 +2,7 @@ import * as Notifications from 'expo-notifications';
 import * as Device from 'expo-device';
 import Constants from 'expo-constants';
 import { Platform } from 'react-native';
-import api from './api';
+import api from './api/v1';
 import { displayIncomingCall } from './callkeep';
 
 // Firebase messaging for proper background FCM handling

@@ -17,7 +17,7 @@ import { initializeCallSounds } from './src/services/callSounds';
 import { initializeCallKeep } from './src/services/callkeep';
 import { OfflineIndicator } from './src/components/OfflineIndicator';
 import { useTheme } from './src/hooks/useTheme';
-import api, { setStoreForApi, markStoreRehydrated } from './src/services/api';
+import api, { setStoreForApi, markStoreRehydrated } from './src/services/api/v1';
 import LockScreen from './src/screens/auth/LockScreen';
 import { isBiometricLockEnabled, lockApp } from './src/services/biometric';
 import { initializePermissions, requestSpecialPermissions } from './src/services/permissions';

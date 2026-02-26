@@ -3,7 +3,7 @@
  * Handles data export related API calls
  */
 
-import api from '../api';
+import api from '../api/v1';
 
 // Types
 export interface ExportData {
